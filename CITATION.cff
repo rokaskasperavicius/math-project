@@ -1,1 +1,13 @@
-
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kasperavicius"
+  given-names: "Rokas"
+- family-names: "Konstantinova"
+  given-names: "Alona"
+- family-names: "Cojocaru"
+  given-names: "Dinu"
+title: "seiz-model"
+version: 1.0.0
+date-released: 2022-09-01
+url: "https://github.com/rokaskasperavicius/math-project"
