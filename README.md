@@ -1,26 +1,35 @@
 # Mathematical Modelling of Misinformation Spreading via Twitter
 
+### Authors
+
+* Rokas Kasperavicius
+* Alona Konstantinova
+* Dinu Cojocaru
+
 ### Directory layout
     Directories                                       Explanations
     ------------------------------------------------------------------------------------------------------------
     .
     ├── code                                          # Python files
-    │   ├── fitting.ipynb                                  # ODE-based parameter fitting + networks
-    │   └── random_graphs.ipynb                            # Random graphs outside ODEs and Networks
+    │   └── main.ipynb                                      # ODE-based parameter fitting + networks
     ├── data                                          # Twitter data
     │   ├── trump_chanting_verified.csv
     │   ├── judicial_watch_alleges_[...].csv
     │   ├── machines_westmoreland_m[...].csv
-    │   └── ballot_harvesting_ilhan[...].csv
+    │   └── ballot_harvesting_resed[...].csv
     ├── images                                        # Graph images
-    │   └── [...].png
-    ├── server                                       # Everything for dedicated server compiling
-    │   ├── script.py                                      # Script for running computationally extensive network simulations
-    │   └── data                                           # csv outputs
-    │       ├── trump_simulation.csv
-    │       ├── judicial_simulation.csv
-    │       ├── machines_simulation.csv
-    │       └── ballot_simulation.csv
+    │   ├── [...].png
+    │   ├── trump
+    │   ├── judicial
+    │   ├── machines
+    │   └── ballot
+    ├── server                                        # Everything for the dedicated server compiling
+    │   ├── script.py                                       # Example of a script for the server
+    │   └── data                                            # Processed csv outputs from the server
+    │       ├── trump
+    │       ├── judicial
+    │       ├── machines
+    │       └── ballot
     ├── .gitignore
     ├── CITATION.cff
     ├── LICENSE
